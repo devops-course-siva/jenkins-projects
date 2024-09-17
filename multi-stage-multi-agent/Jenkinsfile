@@ -14,8 +14,7 @@ pipeline {
         docker { image 'node:16-alpine' }
       }
       steps {
-        sh 'npm init'
-        sh 'npm install express --save'
+        sh 'node --version'
       }
     }
   }
